@@ -1,4 +1,5 @@
 #include "Piece.h"
+#include "Color.h" // Ensure Color is included
 
 Piece::Piece(char symbol, Color color) : symbol(symbol), color(color) {}
 
