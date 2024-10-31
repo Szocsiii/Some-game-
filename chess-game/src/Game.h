@@ -19,7 +19,6 @@ private:
 
 #endif // GAME_H
 // FILE: Game.cpp
-#include "Game.h"
 #include <iostream>
 
 Game::Game() {
@@ -69,6 +68,7 @@ Board::Board() {
 }
 
 void Board::initializeBoard() {
+    grid = std::vector<std::vector<char>>(8, std::vector<char>(8, ' ')); // Initialize an 8x8 board with empty spaces
     // Initialize the board with pieces
 }
 

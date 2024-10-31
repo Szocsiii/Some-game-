@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/workspaces/webpage/chess-game/src/Board.cpp
+Board.h
+/workspaces/webpage/chess-game/src/Board.h
+iostream
+-
+
 /workspaces/webpage/chess-game/src/Board.h
 vector
 -
@@ -36,8 +42,22 @@ Board.h
 iostream
 -
 
+/workspaces/webpage/chess-game/src/Piece.cpp
+Piece.h
+/workspaces/webpage/chess-game/src/Piece.h
+Color.h
+/workspaces/webpage/chess-game/src/Color.h
+
 /workspaces/webpage/chess-game/src/Piece.h
 vector
+-
+string
+-
+
+/workspaces/webpage/chess-game/src/Utils.cpp
+Utils.h
+/workspaces/webpage/chess-game/src/Utils.h
+iostream
 -
 string
 -
